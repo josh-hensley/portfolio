@@ -6,14 +6,14 @@ export default function App() {
   return (
     <>
     <Header />
-    <BrowserRouter>
-      <Routes>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="portfolio" element={<Portfolio />} />
-          <Route path="*" element={<Error />} />
-      </Routes>
+      <BrowserRouter>
+        <Routes>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="portfolio" element={<Portfolio />} />
+            <Route path="*" element={<Error />} />
+        </Routes>
     </BrowserRouter>
     <Footer />
     </>

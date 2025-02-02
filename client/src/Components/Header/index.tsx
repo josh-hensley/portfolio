@@ -18,29 +18,17 @@ const NavLinksList = styled.ul`
 const NavItem = styled.li`
 margin: 0 1em;
 `
-const Link = styled.a`
-    text-decoration: none;
-    &:link {
-        color: #EEE;
-    }
-    &:hover {
-        color: #FFF;
-    };
-    &:visited {
-        color: #000;
-    };
-`
 
 const Header: React.FC = ()=>{
     return <>
     <Navbar>
         <LogoDiv>
-            <Link href='/'><h1>Josh Hensley</h1></Link>
+            <a href='/'><h1>Josh Hensley</h1></a>
         </LogoDiv>
         <NavLinksList>
-            <NavItem><Link href='/About'>About</Link></NavItem>
-            <NavItem><Link href='/Contact'>Contact</Link></NavItem>
-            <NavItem><Link href='/Portfolio'>Portfolio</Link></NavItem>
+            <NavItem><a href='/About'>About</a></NavItem>
+            <NavItem><a href='/Contact'>Contact</a></NavItem>
+            <NavItem><a href='/Portfolio'>Portfolio</a></NavItem>
         </NavLinksList>
     </Navbar>
     </>

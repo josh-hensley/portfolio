@@ -1,0 +1,21 @@
+:root {
+    background-image: radial-gradient(#0008 10%, #000), url('./src/assets/skyscrapers-6990425_1920.jpg');
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    transition: .5s;
+    color: #DDD;
+}
+
+a:hover {
+    color: #FFF;
+    font-size: 110%;
+}
+
+main {
+    height: 76vh;
+}
