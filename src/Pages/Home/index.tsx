@@ -1,17 +1,17 @@
-import styled from "styled-components";
-
-const Main = styled.main`
-    height: 76vh;
-`
-const Heading = styled.h1`
-    text-align: center;
-`
+import headshot from '../../assets/headshot.png'
 
 const Home: React.FC = ()=>{
-    return <>
-    <Main>
-        <Heading>Home Page</Heading>
-    </Main>
-    </>;
+    return (
+    <main>
+        <img src={headshot} id="headshot"  alt="headshot" />
+        <p>
+            Full Stack Web Developer | 
+            MERN & PERN Stack | 
+            Technical Theatre Director with 10 Years of Experience | 
+            BFA in Theatre | 
+            Certified in Full Stack Development
+        </p>
+    </main>
+    )
 }
 export default Home;

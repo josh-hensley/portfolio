@@ -1,15 +1,20 @@
-import styled from "styled-components";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-const StyledFooter = styled.p`
-    height: 8vh;
-    text-align: center;
-    background-image: linear-gradient(#55555500, #00000055);
-`
-
-const Footer: React.FC = ()=>{
-    return <>
-    <StyledFooter>&copy; Josh Hensley 2025</StyledFooter>
-    </>
+const Footer: React.FC = () => {
+    return (
+        <footer>
+            <p>&copy; Josh Hensley 2025</p>
+            <div className="footer-links">
+                <hr />
+                <a href="http://github.com/josh-hensley"><FontAwesomeIcon icon={ faGithub } /></a>
+                <a href="http://github.com/josh-hensley"><FontAwesomeIcon icon={ faLinkedin } /></a>
+                <a href="http://github.com/josh-hensley"><FontAwesomeIcon icon={ faEnvelope } /></a>
+                <hr />
+            </div>
+        </footer>
+    )
 }
 
 export default Footer;
