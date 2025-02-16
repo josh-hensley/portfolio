@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { About, Contact, Home, Portfolio, Error } from './Pages'
+import { About, Contact, Home, Projects, Error } from './Pages'
 import { Header, Footer } from './Components'
 
-export default function App() {
+const App: React.FC = ()=>{
   return (
     <>
       <Header />
@@ -11,7 +11,7 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="About" element={<About />} />
           <Route path="Contact" element={<Contact />} />
-          <Route path="Projects" element={<Portfolio />} />
+          <Route path="Projects" element={<Projects />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
@@ -19,3 +19,4 @@ export default function App() {
     </>
   );
 }
+export default App 

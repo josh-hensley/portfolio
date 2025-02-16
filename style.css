@@ -29,6 +29,15 @@ nav {
     border-radius: 0 0 1em 1em;
 }
 
+article {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+    background: #000c;
+    border-radius: 1em;
+    text-align: justify;
+}
+
 main {
     height: 76vh;
 }
@@ -86,6 +95,10 @@ main {
 .footer-links a {
     margin: 1em;
     scale: 150%;
+}
+
+.about {
+    height: 100%;
 }
 
 #headshot {
