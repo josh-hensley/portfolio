@@ -5,17 +5,17 @@ import { Header, Footer } from './Components'
 export default function App() {
   return (
     <>
-    <Header />
+      <Header />
       <BrowserRouter>
         <Routes>
-            <Route index element={ <Home /> } />
-            <Route path="about" element={ <About /> } />
-            <Route path="contact" element={ <Contact /> } />
-            <Route path="portfolio" element={ <Portfolio /> } />
-            <Route path="*" element={ <Error /> } />
+          <Route index element={<Home />} />
+          <Route path="About" element={<About />} />
+          <Route path="Contact" element={<Contact />} />
+          <Route path="Projects" element={<Portfolio />} />
+          <Route path="*" element={<Error />} />
         </Routes>
-    </BrowserRouter>
-    <Footer />
+      </BrowserRouter>
+      <Footer />
     </>
   );
 }
