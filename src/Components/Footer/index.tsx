@@ -9,8 +9,8 @@ const Footer: React.FC = () => {
             <div className="footer-links">
                 <hr />
                 <a href="http://github.com/josh-hensley"><FontAwesomeIcon icon={ faGithub } /></a>
-                <a href="http://github.com/josh-hensley"><FontAwesomeIcon icon={ faLinkedin } /></a>
-                <a href="http://github.com/josh-hensley"><FontAwesomeIcon icon={ faEnvelope } /></a>
+                <a href="https://www.linkedin.com/in/josh-hensley-88392181/"><FontAwesomeIcon icon={ faLinkedin } /></a>
+                <a href="ailto:me@joshhensley.com"><FontAwesomeIcon icon={ faEnvelope } /></a>
                 <hr />
             </div>
         </footer>
