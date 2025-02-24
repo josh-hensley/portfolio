@@ -1,5 +1,4 @@
 import snippetScreenshot from '../../assets/Snippet_Screenshot.png'
-import cooksCompassScreenshot from '../../assets/cooks-compass-screenshot.png'
 import colorMyWorldScreenshot from '../../assets/color-my-world.png'
 
 const Projects: React.FC = () => {
@@ -9,10 +8,6 @@ const Projects: React.FC = () => {
             <div className="card">
                 <h2>Color My World</h2>
                 <a href="https://mmcgarry13.github.io/Color-My-World/" target='_blank'><img className='screenshot' src={ colorMyWorldScreenshot } alt="Color my world screenshot" /></a>
-            </div>
-            <div className="card">
-                <h2>The Cook's Compass</h2>
-                <a href="https://the-cooks-compass.onrender.com/ " target='_blank'><img className='screenshot' src={ cooksCompassScreenshot } alt="The Cook's Compass screenshot" /></a>
             </div>
             <div className="card">
                 <h2>Snippet</h2>
