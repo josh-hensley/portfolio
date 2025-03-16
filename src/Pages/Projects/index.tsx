@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
             </div>
             <div className="card">
                 <h2>joshhensley.com</h2>
-                <a href="https://joshhensley.com/" target='_blank'><img src={ joshhensleyScreenshot } alt="joshhensley.com screenshot" /></a>
+                <a href="https://joshhensley.com/" target='_blank'><img className='screenshot' src={ joshhensleyScreenshot } alt="joshhensley.com screenshot" /></a>
             </div>
         </div>
     </main>
