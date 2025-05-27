@@ -1,6 +1,7 @@
 import snippetScreenshot from '../../assets/Snippet_Screenshot.png'
 import colorMyWorldScreenshot from '../../assets/color-my-world.png'
 import joshhensleyScreenshot from '../../assets/jhcomscreenshot.png'
+import digitalCallboardScreenshot from '../../assets/digital-callboard.png'
 
 const Projects: React.FC = () => {
     return (
@@ -17,6 +18,10 @@ const Projects: React.FC = () => {
             <div className="card">
                 <h2>joshhensley.com</h2>
                 <a href="https://joshhensley.com/" target='_blank'><img className='screenshot' src={ joshhensleyScreenshot } alt="joshhensley.com screenshot" /></a>
+            </div>
+            <div className="card">
+                <h2>Digital Callboard</h2>
+                <a href="https://shrekrsm.com/" target='_blank'><img className='screenshot' src={ digitalCallboardScreenshot } alt="joshhensley.com screenshot" /></a>
             </div>
         </div>
     </main>
