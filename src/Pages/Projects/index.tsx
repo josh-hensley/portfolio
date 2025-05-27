@@ -1,7 +1,7 @@
 import snippetScreenshot from '../../assets/Snippet_Screenshot.png'
 import colorMyWorldScreenshot from '../../assets/color-my-world.png'
 import joshhensleyScreenshot from '../../assets/jhcomscreenshot.png'
-import digitalCallboardScreenshot from '../../assets/digital-callboard.png'
+import digitalCallboardScreenshot from '../../assets/digital-callboard-screenshot.png'
 
 const Projects: React.FC = () => {
     return (
