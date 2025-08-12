@@ -1,7 +1,8 @@
-import snippetScreenshot from '../../assets/Snippet_Screenshot.png'
-import colorMyWorldScreenshot from '../../assets/color-my-world.png'
-import joshhensleyScreenshot from '../../assets/jhcomscreenshot.png'
-import digitalCallboardScreenshot from '../../assets/digital-callboard-screenshot.png'
+import snippetScreenshot from 'assets/Snippet_Screenshot.png'
+import colorMyWorldScreenshot from 'assets/color-my-world.png'
+import joshhensleyScreenshot from 'assets/jhcomscreenshot.png'
+import digitalCallboardScreenshot from 'assets/digital-callboard-screenshot.png'
+import stagecorpsScreenshot from 'assets/stagecorps.png'
 
 const Projects: React.FC = () => {
     return (
@@ -22,6 +23,10 @@ const Projects: React.FC = () => {
             <div className="card">
                 <h2>Digital Callboard</h2>
                 <a href="https://shrekrsm.com/" target='_blank'><img className='screenshot' src={ digitalCallboardScreenshot } alt="shrekrsm.com screenshot" /></a>
+            </div>
+            <div className="card">
+                <h2>Stagecorps.com</h2>
+                <a href="https://stagecorps.onrender.com" target='_blank'><img src={ stagecorpsScreenshot } alt="stagecors.com screenshot" className="screenshot" /></a>
             </div>
         </div>
     </main>
