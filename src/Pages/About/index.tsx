@@ -1,9 +1,7 @@
-import headshot from '../../assets/headshot.png'
-
 const About: React.FC = () => {
     return (
         <main className='about'>
-            <img src={headshot} id="headshot" alt="headshot" />
+            <img src="/assets/headshot.png" id="headshot" alt="headshot" />
             <h1>About</h1>
             <article>
                 <h3>Background in Technical Theatre</h3>

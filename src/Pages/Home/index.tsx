@@ -1,9 +1,7 @@
-import headshot from '../../assets/headshot.png'
-
 const Home: React.FC = ()=>{
     return (
     <main>
-        <img src={headshot} id="headshot"  alt="headshot" />
+        <img src="/assets/headshot.png" id="headshot"  alt="headshot" />
         <p>
             Full Stack Web Developer | 
             MERN & PERN Stack | 

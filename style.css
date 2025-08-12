@@ -4,7 +4,7 @@
     --primary: magenta;
     --secondary: cyan;
 
-    background-image: radial-gradient(#0008 10%, #000), url('./src/assets/skyscrapers-6990425_1920.jpg');
+    background-image: radial-gradient(#0008 10%, #000), url('/assets/skyscrapers-6990425_1920.jpg');
     font-family: 'Orbitron', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
