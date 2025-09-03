@@ -16,7 +16,7 @@ const Projects: React.FC = () => {
             </div>
             <div className="card">
                 <h2>Digital Callboard</h2>
-                <a href="https://shrekrsm.com/" target='_blank'><img className='screenshot' src="/assets/digital-callboard-screenshot.png" alt="shrekrsm.com screenshot" /></a>
+                <a href="https://digital-callboard.onrender.com/" target='_blank'><img className='screenshot' src="/assets/digital-callboard-screenshot.png" alt="shrekrsm.com screenshot" /></a>
             </div>
             <div className="card">
                 <h2>Stagecorps.com</h2>
