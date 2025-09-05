@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
                 <hr />
                 <a href="http://github.com/josh-hensley"><FontAwesomeIcon icon={ faGithub } /></a>
                 <a href="https://www.linkedin.com/in/josh-hensley-88392181/"><FontAwesomeIcon icon={ faLinkedin } /></a>
-                <a href="ailto:me@joshhensley.com"><FontAwesomeIcon icon={ faEnvelope } /></a>
+                <a href="mailto:me@joshhensley.com"><FontAwesomeIcon icon={ faEnvelope } /></a>
                 <hr />
             </div>
         </footer>
