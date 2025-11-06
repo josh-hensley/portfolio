@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
             </div>
             <div className="card">
                 <h2>stagecorps.com</h2>
-                <a href="https://stagecorps.onrender.com" target='_blank'><img src="/assets/stagecorps.png" alt="stagecorps.com screenshot" className="screenshot" /></a>
+                <a href="https://stagecorps.com" target='_blank'><img src="/assets/stagecorps.png" alt="stagecorps.com screenshot" className="screenshot" /></a>
             </div>
         </div>
     </main>
